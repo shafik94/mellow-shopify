@@ -1,0 +1,25 @@
+{
+  "name": "mellow-fido",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw": "npx @tailwindcss/cli -i ./style.css -o ./assets/custom.css --watch",
+    "dev": "shopify theme dev",
+    "build": "shopify theme build",
+    "push-prod": "shopify theme push --store=6e8ask-yb.myshopify.com",
+    "pull": "shopify theme pull --store=6e8ask-yb.myshopify.com"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "css": "^3.0.0",
+    "tailwind": "^4.0.0"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.5",
+    "tailwindcss": "^4.1.5"
+  }
+}
